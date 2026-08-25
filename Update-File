@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *' # Optional: Runs automatically every hour
+    - cron: '*/5 * * * *'
 
 jobs:
   update-files:
